@@ -1,0 +1,405 @@
+* {
+ margin:0;
+ padding:0;
+ }
+
+ .logo{
+    height: 19px;
+    width: 61.089656829833984px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+ }
+
+ nav{
+    display: flex;
+   margin-left: 50px;
+   margin-top: 35px;
+ }
+
+ .navigation-link{
+    display: flex;
+    gap: 40px;
+    margin-left: 1100px;
+ }
+
+ .navigate{
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+ }
+
+ .navigate:hover {
+    color: #0065FC;
+ }
+
+ h1{
+    
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 26px;
+    left: 55px;
+    top: 126px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+
+ }
+
+ p{
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 19px;
+    left: 55px;
+    top: 160px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+ }
+
+ .chearch{
+   display: flex;
+   margin-left: 40px;
+   margin-top: 20px;
+ }
+
+ .input-text{
+    height: 40px;
+    width: 332px;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    
+ }
+
+ .location-icon{
+    width: 35px;
+    background-color: aquamarine;
+    height: 27px;
+    text-align: center;
+    padding-top: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px ;
+    background-color: #F2F2F2;
+ }
+
+ .input-chearch{
+    width: 159px;
+    background-color:#0065FC ;
+    height: 42px;
+    margin-left: -20px;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: none;
+    font-family: Raleway;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+ }
+
+
+ .filtre{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+    gap: 20px;
+ }
+
+ .economy{
+    width: 140px;
+    height:35px;
+    border: solid 1px grey;
+    text-align: center;
+    border-radius: 15px;
+ }
+ .family{
+    width: 120px;
+    height:35px;
+    border: solid 1px grey;
+    text-align: center;
+    border-radius: 15px;
+ }
+
+ .romantique{
+    width: 140px;
+    height: 35px;
+    border: solid 1px grey;
+    text-align: center;
+    border-radius: 15px;
+ }
+
+ .animal{
+    width: 200px;
+    height:35px;
+    border: solid 1px grey;
+    text-align: center;
+    border-radius: 15px;
+ }
+ 
+
+
+
+ .ic{
+    color:#0065FC;
+ }
+
+ button{
+    cursor: pointer;
+    padding-top: 7px;
+    font-family: Raleway;
+    font-size: 17px;
+    border: none;
+    background: none;
+    font-weight: 700;
+    
+ }
+
+ .animal:hover , .economy:hover , .family:hover , .romantique:hover {
+    background-color: #DEEBFF;
+ }
+
+ h2{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+ }
+
+ .details{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    gap: -10px;
+ }
+
+ .fa-circle-info{
+    margin-top: 12px;
+    color: grey;
+      
+ }
+
+.marseille-accommodation{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ .hebergement{
+    width: 880px;
+    height:625px ;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+ }
+
+ .popular{
+    width: 420px;
+    height: 625px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+ }
+
+ .box-hebergement{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+ }
+
+ .boxh{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 29%;
+    height: 220px;
+    gap: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+ }
+
+ .img-accomodation{
+    width: 240px;
+    height: 140px;
+    padding-top: 5px;
+    padding-left: 8px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-left: 0.5px;
+    
+ }
+
+ .rate{
+    color: #0065FC;
+ }
+
+ .accommodation-card{
+   color: #000000;
+   text-decoration: none;
+ }
+
+ .card-detail{
+   margin-left: 20px;
+ }
+
+ h4{
+   margin-left: 10px;
+ }
+
+ .all-star{
+   margin-left: 10px;
+ }
+
+ .last-star{
+   color: gray;
+ }
+
+ .block-seemore{
+   justify-content: flex-start;
+ }
+
+ .see-more{
+   color: #000000;
+   text-decoration: none;
+   font-family: Raleway;
+   font-weight: 700;
+   font-size: 18px;
+   font-style: normal;
+   line-height: 21px;
+   text-align: left;
+   margin-right: 750px;
+ }
+
+ .popular-title{
+   display: flex;
+   flex-direction: row;   
+ }
+
+ .h1popular{
+
+   margin-left: 20px;
+ }
+
+ .fa-chart-line{
+   margin-top: 35px;
+   margin-left: 120px;
+   color: #0065FC;
+ }
+
+ .popular-box{
+   display: flex;
+   margin-left: 20px;
+   margin-top: 25px;
+   width: 343px;
+   height: 150px;
+   background-color: white;
+   border-radius: 20px;
+ }
+
+ .popular-img{
+   width: 137px;
+   height: 144px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   margin-left: 5px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   object-fit: cover;
+   
+ }
+
+ .popular-details{
+   margin-top: 15px;
+ }
+
+ .popular-text{
+   margin-top: 25px;
+   padding-right: 10px;
+ }
+
+ .popstar{
+   margin-top: 40px;
+
+ }
+
+ .popular-link{
+   color: #000000;
+   text-decoration: none;
+ }
+
+ .marseille-box{
+   
+   background-color:#F2F2F2;
+   width: 302px;
+   height: 444px;
+   border-radius: 20px;
+ }
+
+ .img-activity{
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+   width: 302px;
+   height: 400px;
+   object-fit: cover;
+ }
+
+ .acticity-text{
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+   margin-top: 10px;
+ }
+
+ .activity-link{
+   color: #000000;
+   text-decoration: none;
+ }
+
+ .marseille-boxes{
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .activity-title{
+   margin-top: 70px;
+ }
+
+ footer{
+
+   text-align: center;
+   display: flex;
+   margin-top: 30px;
+   margin-left: 70px;
+   width: 1390px;
+   height: 225px;
+   background-color: #F2F2F2;
+   gap: 300px;
+   
+ }
+
+ .a-propos{
+   margin-top: 50px;
+ }
