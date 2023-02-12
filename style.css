@@ -37,9 +37,11 @@
 
  .navigate:hover {
     color: #0065FC;
+    
  }
 
- h1{
+
+ .site-title{
     
     margin-top: 30px;
     margin-left: 40px;
@@ -55,7 +57,7 @@
 
  }
 
- p{
+ .info{
     margin-top: 10px;
     margin-left: 40px;
     height: 19px;
@@ -78,11 +80,18 @@
  .input-text{
     height: 40px;
     width: 332px;
-    border-top: 0.5px solid black;
-    border-bottom: 0.5px solid black;
     border-left: none;
     border-right: none;
     text-align: center;
+    font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   border-bottom: 1px solid #F2F2F2;
+   border-top: 1px solid #F2F2F2;
+   
     
  }
 
@@ -158,6 +167,7 @@
 
  .ic{
     color:#0065FC;
+    margin-right: 7px;
  }
 
  button{
@@ -208,14 +218,14 @@
 }
  .hebergement{
     width: 880px;
-    height:625px ;
+    height: 650px ;
     background-color: #F2F2F2;
     border-radius: 20px;
  }
 
  .popular{
     width: 420px;
-    height: 625px;
+    height: 650px;
     background-color: #F2F2F2;
     border-radius: 20px;
  }
@@ -235,9 +245,10 @@
     gap: 20px;
     border-radius: 20px;
     margin-top: 20px;
+    background-color: white;
     
  }
-
+ 
  .img-accomodation{
     width: 240px;
     height: 140px;
@@ -266,8 +277,22 @@
    margin-left: 10px;
  }
 
+ .h4-accomodation{
+   margin-left: 20px;
+ }
+
+ .h3-accomodation{
+   font-family: Raleway;
+   font-weight: 700;
+   margin-top: 40px;
+   margin-left: 30px;
+   font-size: 22px;
+line-height: 26px;
+ }
+
  .all-star{
-   margin-left: 10px;
+   margin-left: 20px;
+   margin-top: 10px;
  }
 
  .last-star{
@@ -310,7 +335,7 @@
    display: flex;
    margin-left: 20px;
    margin-top: 25px;
-   width: 343px;
+   width: 340px;
    height: 150px;
    background-color: white;
    border-radius: 20px;
@@ -330,15 +355,16 @@
 
  .popular-details{
    margin-top: 15px;
+   margin-left: 20px;
  }
 
  .popular-text{
    margin-top: 25px;
-   padding-right: 10px;
+   margin-left: 20px;
  }
 
  .popstar{
-   margin-top: 40px;
+   margin-top: 30px;
 
  }
 
@@ -385,6 +411,13 @@
 
  .activity-title{
    margin-top: 70px;
+   margin-right: 1200px;
+   font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
  }
 
  footer{
