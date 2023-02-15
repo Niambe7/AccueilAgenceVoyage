@@ -524,4 +524,195 @@ color: #000000;
 
  }
 
+ @media screen and (min-width: 768px) and (max-width:991px) {
+      .navigation-link{
+         margin-left: 400px;
+      }
+
+      .filtre,.chearch,.info,.site-title,.logo{
+         margin-right: 5px;
+      }
+
+      .site-title{
+         font-weight: 600;
+         font-size: 20px;
+      }
+
+     .input-text{
+      width: 280px;
+     }
+      .filtre{
+         width: 670px;
+      }
+      button{
+         font-size: 15px;
+         font-weight: 600;
+      }
+
+      .economy{
+         width: 170px;
+      }
+
+      .romantique{
+         width: 170px;
+      }
+
+      .animal{
+         width: 230px;
+      }
+
+      .marseille-accommodation{
+         flex-direction: column;
+      }
+
+      .hebergement{
+         width: 700px;
+      }
+      
+      .boxh{
+         height: 195px;
+         
+      }
+
+      .img-accomodation{
+         width: 190px;
+         height: 120px;
+         object-fit: cover;
+         border-top-right-radius: 20px;
+         border-top-left-radius: 20px;
+         margin-right: 10px;
+    
+      }
+
+      .box-hebergement{
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         gap: 20px;
+      }
+
+      .h3-accomodation{
+         text-align-last: left;
+      }
+
+      .h4-accomodation{
+         text-align-last: left;
+      }
+
+      .card-detail{
+         text-align-last: left;
+      }
+      .all-star{
+         text-align-last: left;
+      }
+
+      .block-seemore{
+        margin-left: 130px;
+        margin-top: 30px;
+      }
+
+      .popular{
+         margin-top: 30px;
+         width: 750px ;
+         height: 300px;
+      }
+
+      .popular-title{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: nowrap;
+         height: 30px;
+      }
+
+      .popular-box{
+         width: 229px;
+      
+      }
+
+      .popular-img{
+         width:100px;
+         object-fit: cover;
+      }
+
+      .all-boxes{
+         margin-top: 20px;
+         display: flex;
+         flex-direction: row;
+      }
+      .popular-details{
+         width: 111px;
+         height: 32px;
+
+         font-family: 'Raleway';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 16px;
+
+         color: #000000;
+
+
+         /* Inside auto layout */
+
+         flex: none;
+         order: 0;
+         flex-grow: 0;
+      }
+
+      .popular-text{
+         width: 120px;
+      height: 15px;
+
+      margin-left: -1px;
+      margin-left: 3px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 15px;
+
+      color: #000000;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      }
+
+      .marseille-box{
+         width: 160px;
+         height: 267px;
+      }
+      
+      .img-activity{
+         width: 160px;
+         height: 218px;
+         object-fit: cover;
+      }
+
+      .acticity-text{
+         font-family: 'Raleway';
+         font-style: normal;
+         font-weight: 600;
+         font-size: 13px;
+         line-height: 14px;
+         width: 100px;
+ }
+ footer{
+
+   width: 670px;
+   height: 300px;
+   gap: 20px;
+   text-align: center;
+     
+ }
+
+ .pfooter{
+   font-size: 15px;
+   
+ }
+
+ .fa-chart-line{
+   margin-left: 500px;
+ }
+}
+
 
