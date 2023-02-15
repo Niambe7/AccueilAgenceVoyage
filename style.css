@@ -715,4 +715,244 @@ color: #000000;
  }
 }
 
+@media screen and (min-width:200px) and (max-width:767px) {
+
+
+
+   .logo{
+      margin-bottom: 80px;
+      margin-left: 35%;
+   }
+
+   .navigation-link{
+      margin-top: 50px;
+      flex-direction: column;
+      margin-left: -230px;
+   }
+
+   .nav-links li a:before{
+      top: 90px;
+   }
+
+   .nav-links li a{
+      padding: 35px;   
+   }
+
+   .site-title{
+      width: 298px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 26px;
+      color: #000000;
+      margin-left: 13%;
+   }
+
+   .infos{
+      margin-top: 40px;
+      margin-left: 50px; 
+   }
+
+   .input-text{
+      width: 200px;
+   }
+
+   .filtre{
+      width: 400px;
+      flex-wrap: wrap;
+   }
+
+   .label-filtre{
+      display: unset;
+   }
+
+   .all-filtres{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 450px;
+   }
+
+   .economy{
+      width: 160px;
+      height: 50px;
+      border-radius: 30px;
+      padding-top: 10px;
+   }
+
+   .family{
+      width: 160px;
+      height: 50px;
+      border-radius: 30px;
+      padding-top: 10px;
+   }
+
+   .romantique{
+      width: 160px;
+      height: 50px;
+      border-radius: 30px;
+      padding-top: 10px;
+   }
+
+   .animal{
+      width: 160px;
+      height: 50px;
+      border-radius: 30px;
+      padding-top: 10px;
+   }
+   
+   button{
+      text-align: center;
+      margin-top: 5px;
+      font-size: 11px;
+      line-height: 13px;
+   }
+
+   .marseille-accommodation{
+      flex-direction: column;
+   }
+
+   .popular{
+      order: 0;
+      width: auto;
+      height: 580px;
+      border-radius: 0px;
+      text-align: center;
+   }
+
+   .all-boxes{
+      margin-right: 20px;
+   }
+
+   .hebergement{
+      order: 1;
+      height: auto;
+      background-color: white;
+   }
+
+   .box-hebergement{
+      flex-direction: column;
+      margin-left: 280px;
+      gap: 2px;
+      
+   }
+
+   .boxh{
+      width: 315px;
+      height: 199px;
+   }
+
+   .img-accomodation{
+      height: 124px;
+      width: 300px;
+      object-fit: cover;
+   }
+
+   .see-more{
+      display: none;
+   }
+   .title-hebergement{
+      margin-top: 20px;
+      margin-left: 270px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 26px;
+      color: #000000;
+   }
+
+   .activity-title{
+      
+      width: 110px;
+      height: 30.02px;
+      left: 22px;
+      top: 2646px;
+      margin-left: 50px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 26px;
+      color: #000000;
+   }
+
+   .marseille-boxes{
+      padding-top: 20px;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-left: 50px;
+      gap: 15px;
+   }
+
+   .marseille-box{
+       width: 315px;
+      height: 170px;
+   }
+
+   .img-activity{
+      height: 124px;
+      width: 315px;
+      object-fit: cover;
+   }
+
+   footer{
+      flex-direction: column;
+      gap: 2px;
+      text-align: center;
+      margin-left: -500px;
+      height: auto;
+   }
+
+   .details i{
+      margin-top: 50px;
+   }
+   .chearch-icon{
+   display: inline;
+   }
+
+   .text-chearch{
+      display: none;
+   }
+
+   .input-chearch{
+      width: 49px;
+      padding-bottom: 30px;
+   }
+
+   .btn-chearch{
+      margin-left: 20px;
+      margin-top: -5px;
+   }
+}  
+
+@media screen and (min-width:420px) and (max-width:767px){
+   .site-title{
+      margin: auto;
+      margin-top: 50px;
+   }
+   .infos{
+      margin-left: 30%;
+      margin-top: 50px;
+   }
+
+   .chearch{
+      margin-left: 30%;
+   }
+
+   .filtre{
+      margin: auto;
+      margin-top: 20px;
+   }
+
+   .marseille-activity{
+      margin-left: 24%;
+   }
+
+   .a-propos{
+      padding-left: 29%;
+   }
+}
+
 
