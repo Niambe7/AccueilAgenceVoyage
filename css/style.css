@@ -18,7 +18,8 @@ body{
  }
 
  nav{
-    display: flex;
+   margin-right: 20px;
+   display: flex;
    margin-left: 50px;
    margin-top: 35px;
  }
@@ -30,9 +31,16 @@ body{
 
 }
 
+.contain{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
 .nav-links li {
     list-style: none;
-    margin: 0 30px;
+    margin-right: 50px;
+    
 }
 
 .nav-links li a {
@@ -119,6 +127,19 @@ body{
 
  }
 
+ .infos-detail{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 19px;
+    left: 55px;
+    top: 160px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+ }
+
  .chearch{
    display: flex;
    margin-left: 40px;
@@ -172,6 +193,8 @@ body{
     font-weight: 700;
     border: none;
     cursor: pointer;
+    text-align: center;
+    padding-bottom: 8px;
  }
 
 
@@ -264,16 +287,17 @@ body{
     display: flex;
     margin-left: 30px;
     margin-top: 30px;
-    gap: -10px;
+    gap: 0px;
  }
 
  .h4-hebergement{
-   margin-left: 20px;
+   margin-left: 22px;
  }
 
  .fa-circle-info{
     margin-top: 12px;
     color: grey;
+    margin-left: 10px;
       
  }
 
@@ -336,7 +360,7 @@ body{
  }
 
  .card-detail{
-   margin-left: 22px;
+   margin-left: 23px;
  }
 
  h4{
@@ -344,7 +368,7 @@ body{
  }
 
  .all-star{
-   margin-left: 17px;
+   margin-left: 21px;
    margin-top: 6px;
  }
 
@@ -420,11 +444,12 @@ body{
 
  #star-outline{
    margin-top: 25px;
+   margin-left: 10px;
  }
 
  .popstar{
    margin-top: 40px;
-   margin-left: 10px;
+   margin-left: 9px;
 
  }
 
@@ -474,10 +499,10 @@ body{
    text-align-last: left;
    margin-left: 30px;
    font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 26px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 26px;
 
 color: #000000;
  }
@@ -526,7 +551,7 @@ color: #000000;
 
  @media screen and (min-width: 768px) and (max-width:991px) {
       .navigation-link{
-         margin-left: 400px;
+         margin-left: 55%;
       }
 
       .filtre,.chearch,.info,.site-title,.logo{
@@ -534,31 +559,52 @@ color: #000000;
       }
 
       .site-title{
-         font-weight: 600;
-         font-size: 20px;
+         font-weight: 700;
+         font-size: 18px;
       }
 
      .input-text{
-      width: 280px;
+      width: 230px;
+     }
+
+     .infos{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+     }
+
+     .label-filtre{
+      width: 40px;
      }
       .filtre{
          width: 670px;
       }
       button{
-         font-size: 15px;
-         font-weight: 600;
+         
+         height: 20px;
+
+         font-family: 'Raleway';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 14px;
+         line-height: 20px;
+         color: #000000;
+      }
+
+      .input-chearch{
+         width: 130px;
       }
 
       .economy{
-         width: 170px;
+         width: 21%;
       }
 
       .romantique{
-         width: 170px;
+         width: 150px;
       }
 
       .animal{
-         width: 230px;
+         width: 200px;
       }
 
       .marseille-accommodation{
@@ -606,14 +652,30 @@ color: #000000;
          text-align-last: left;
       }
 
+      
+
+      #star-outline{
+         padding-top: 17px;
+         margin-left: 6px;
+      }
+
+      .popstar{
+         margin-left: 6px;
+         padding-bottom: 20px;
+      }
+
       .block-seemore{
         margin-left: 130px;
         margin-top: 30px;
       }
 
+      .see-more{
+         width: 130px;
+      }
+
       .popular{
          margin-top: 30px;
-         width: 750px ;
+         width: 700px ;
          height: 300px;
       }
 
@@ -625,50 +687,48 @@ color: #000000;
       }
 
       .popular-box{
-         width: 229px;
+         width: 215px;
+         height: 80%;
       
       }
 
       .popular-img{
-         width:100px;
+         width: 90px;
          object-fit: cover;
+         
       }
 
       .all-boxes{
          margin-top: 20px;
          display: flex;
          flex-direction: row;
+         margin-left: -16px;
+         gap: 0px;
+         justify-content:flex-start;
       }
       .popular-details{
          width: 111px;
          height: 32px;
-
          font-family: 'Raleway';
          font-style: normal;
          font-weight: 700;
          font-size: 14px;
          line-height: 16px;
-
          color: #000000;
-
-
-         /* Inside auto layout */
-
          flex: none;
          order: 0;
          flex-grow: 0;
+         margin-left: 6px;
       }
 
       .popular-text{
-         width: 120px;
+      width: 120px;
       height: 15px;
-
-      margin-left: -1px;
-      margin-left: 3px;
+      margin-left: 7px;
       font-family: 'Raleway';
       font-style: normal;
       font-weight: 400;
-      font-size: 13px;
+      font-size: 70%;
       line-height: 15px;
 
       color: #000000;
@@ -678,13 +738,18 @@ color: #000000;
       }
 
       .marseille-box{
-         width: 160px;
-         height: 267px;
+         width: 150px;
+         height: 240px;
       }
+
+     .marseille-boxes{
+      
+      gap: 0px;
+     }
       
       .img-activity{
-         width: 160px;
-         height: 218px;
+         width: 100%;
+         height: 190px;
          object-fit: cover;
       }
 
@@ -698,8 +763,10 @@ color: #000000;
  }
  footer{
 
+   margin-left: auto;
+   margin-right: auto;
    width: 670px;
-   height: 300px;
+   height: 260px;
    gap: 20px;
    text-align: center;
      
@@ -710,33 +777,53 @@ color: #000000;
    
  }
 
+
  .fa-chart-line{
-   margin-left: 500px;
+   margin-left: 460px;
  }
 }
 
 @media screen and (min-width:200px) and (max-width:767px) {
 
-
-
+   
    .logo{
       margin-bottom: 80px;
-      margin-left: 35%;
+      margin-left: 50%;
    }
 
    .navigation-link{
       margin-top: 50px;
       flex-direction: column;
-      margin-left: -230px;
+      margin-left: -60%;
+      
+      
    }
 
    .nav-links li a:before{
       top: 90px;
+      content: '';
+      position: absolute;
+      left: 0;
+      height: 3px;
+      width: 0%;
+      background: #0065FC;
+      transition: all 0.4s ease;
    }
+   
 
    .nav-links li a{
-      padding: 35px;   
+      padding: 35px;
+       
    }
+
+   .nav-links li a:hover:before{
+      width: 100%;
+}
+
+.nav-links li a:hover{
+   color: #0065FC;
+   margin-left: -20px;
+}
 
    .site-title{
       width: 298px;
@@ -749,13 +836,36 @@ color: #000000;
       margin-left: 13%;
    }
 
+   .chearch{
+      margin-top: 40px;
+   }
+
    .infos{
       margin-top: 40px;
       margin-left: 50px; 
    }
 
    .input-text{
-      width: 200px;
+      width: 250px;
+   }
+
+    .chearch-icon{
+   display: inline;
+   text-align: center;
+   }
+
+   .text-chearch{
+      display: none;
+   }
+
+   .input-chearch{
+      width: 49px;
+      padding-top: 10px;
+   }
+
+   .btn-chearch{
+      margin-left: 20px;
+      margin-top: -5px;
    }
 
    .filtre{
@@ -779,6 +889,7 @@ color: #000000;
       height: 50px;
       border-radius: 30px;
       padding-top: 10px;
+      text-align-last: left;
    }
 
    .family{
@@ -786,6 +897,7 @@ color: #000000;
       height: 50px;
       border-radius: 30px;
       padding-top: 10px;
+      text-align-last: left;
    }
 
    .romantique{
@@ -793,6 +905,7 @@ color: #000000;
       height: 50px;
       border-radius: 30px;
       padding-top: 10px;
+      text-align-last: left;
    }
 
    .animal{
@@ -800,13 +913,19 @@ color: #000000;
       height: 50px;
       border-radius: 30px;
       padding-top: 10px;
+      text-align-last: left;
+   }
+
+   .ic{
+      margin-left: 5px;
    }
    
    button{
       text-align: center;
       margin-top: 5px;
-      font-size: 11px;
-      line-height: 13px;
+      font-size: 14px;
+      font-weight: 900;
+      line-height: 18px;
    }
 
    .marseille-accommodation{
@@ -814,11 +933,40 @@ color: #000000;
    }
 
    .popular{
+      margin-top: 20px;
+      margin-left: 75px;
       order: 0;
       width: auto;
       height: 580px;
       border-radius: 0px;
       text-align: center;
+   }
+
+   .popular-text{
+      margin-left: 0px;
+   }
+
+   .out-text{
+      margin-left: 15px;
+   }
+
+   .popstar{
+      margin-right: 30%;
+   }
+   #coeur-eau{
+      margin-right: 18%;
+   }
+
+   #star-outline{
+      margin-right: 47%;
+   }
+
+   .first-text{
+      margin-right: 5%;
+   }
+
+   .first-rate{
+      margin-right: 40%;
    }
 
    .all-boxes{
@@ -829,6 +977,8 @@ color: #000000;
       order: 1;
       height: auto;
       background-color: white;
+      margin-top: 20px;
+      margin-left: 20%;
    }
 
    .box-hebergement{
@@ -854,7 +1004,7 @@ color: #000000;
    }
    .title-hebergement{
       margin-top: 20px;
-      margin-left: 270px;
+      margin-left: 285px;
       font-family: 'Raleway';
       font-style: normal;
       font-weight: 700;
@@ -869,7 +1019,7 @@ color: #000000;
       height: 30.02px;
       left: 22px;
       top: 2646px;
-      margin-left: 50px;
+      margin-left: 21%;
       font-family: 'Raleway';
       font-style: normal;
       font-weight: 700;
@@ -882,7 +1032,7 @@ color: #000000;
       padding-top: 20px;
       flex-direction: column;
       margin-top: 20px;
-      margin-left: 50px;
+      margin-left: 18%;
       gap: 15px;
    }
 
@@ -898,61 +1048,20 @@ color: #000000;
    }
 
    footer{
+      width: 150% ;
       flex-direction: column;
       gap: 2px;
       text-align: center;
-      margin-left: -500px;
       height: auto;
-   }
-
-   .details i{
-      margin-top: 50px;
-   }
-   .chearch-icon{
-   display: inline;
-   }
-
-   .text-chearch{
-      display: none;
-   }
-
-   .input-chearch{
-      width: 49px;
-      padding-bottom: 30px;
-   }
-
-   .btn-chearch{
-      margin-left: 20px;
-      margin-top: -5px;
-   }
-}  
-
-@media screen and (min-width:420px) and (max-width:767px){
-   .site-title{
-      margin: auto;
-      margin-top: 50px;
-   }
-   .infos{
-      margin-left: 30%;
-      margin-top: 50px;
-   }
-
-   .chearch{
-      margin-left: 30%;
-   }
-
-   .filtre{
-      margin: auto;
-      margin-top: 20px;
-   }
-
-   .marseille-activity{
-      margin-left: 24%;
+      margin-left: auto;
+      
    }
 
    .a-propos{
-      padding-left: 29%;
+      text-align-last: left;
+      margin-left: 30px;
    }
-}
+
+}   
 
 
